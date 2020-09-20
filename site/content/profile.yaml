@@ -1,11 +1,11 @@
 - profile:
   initials: TR
   name: Tomas Riabovas
-  email: hello@tmriabovas.tech
+  email: tmriabovas@gmail.com
   profession: Student
   image: images/profile.jpg
   location: London,UK
-  relocation: true
+  relocation: false
   company: Freelance
   for_hire: true
   focus: Digital marketing fundamentals
@@ -16,7 +16,7 @@
     Outside of the studying, my favourite pastimes include listening to podcasts and reading books on my ever present book reader. If I'm not doing one or the other, you'll find me on my lifelong pursuit of becoming indistractable.
   skills:
     - JavaScript
-    - HTML / CSS
+    - Information Security
     - Java
   tools:
     - React
