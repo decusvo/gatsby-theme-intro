@@ -1,0 +1,7 @@
+- name: React based restaurant ordering system
+  url: https://github.com/decusvo/RestaurantReactApp
+  description: A food ordering system for a mock restaurant based on React and Python.
+  tags:
+    - JavaScript
+    - Python
+  icon: github

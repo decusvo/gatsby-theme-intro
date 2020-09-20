@@ -11,5 +11,8 @@
   "workspaces": [
     "gatsby-theme-intro",
     "site"
-  ]
+  ],
+  "name": "gatsby-theme-intro",
+  "repository": "https://github.com/wkocjan/gatsby-theme-intro",
+  "author": "Tomas Riabovas <zfac189@live.rhul.ac.uk>"
 }

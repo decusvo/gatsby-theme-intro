@@ -2,6 +2,7 @@ import { graphql } from "gatsby"
 import { arrayOf, bool, number, shape, string, object } from "prop-types"
 
 export const ProfileType = {
+  certifications: string.isRequired,
   about: string.isRequired,
   budget: shape({
     currency: string.isRequired,
@@ -29,6 +30,7 @@ export const ProfileType = {
 
 export const query = graphql`
   fragment ProfileFragment on ProfileYaml {
+    certifications
     about
     budget {
       currency
@@ -43,7 +45,7 @@ export const query = graphql`
     for_hire
     image {
       childImageSharp {
-        fixed(width: 144, height: 144, quality: 85) {
+        fixed(width: 144, height: 144, quality: 100) {
           ...GatsbyImageSharpFixed_withWebp
         }
       }

@@ -1,0 +1,31 @@
+- profile:
+  initials: TR
+  name: Tomas Riabovas
+  email: hello@tmriabovas.tech
+  profession: Student
+  image: images/profile.jpg
+  location: London,UK
+  relocation: true
+  company: Freelance
+  for_hire: true
+  focus: Digital marketing fundamentals
+  focus_url: https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing
+  about: |
+    I'm a technological enthusiast with a focus on information security and its practical applications in the real world. At this moment, you will find me studying for my Bachelor's of Science in Computer Science at Royal Holloway, University of London.
+
+    Outside of the studying, my favourite pastimes include listening to podcasts and reading books on my ever present book reader. If I'm not doing one or the other, you'll find me on my lifelong pursuit of becoming indistractable.
+  skills:
+    - JavaScript
+    - HTML / CSS
+    - Java
+  tools:
+    - React
+    - IntelliJ
+    - WebStorm
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10
+  certifications: |
+    • EFSET English Certificate 82/100 (C2 Proficient)

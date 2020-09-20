@@ -20,7 +20,7 @@ const Summary = ({ profile }) => (
     </div>
     <div className="w-1/2 pl-4 lg:pl-12">
       <h5 className="font-header font-semibold text-front text-sm uppercase">
-        Focused on
+        Working on
       </h5>
       <div className="font-header font-light text-2xl text-front leading-tight">
         {profile.focus}

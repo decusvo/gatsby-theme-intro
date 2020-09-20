@@ -6,10 +6,10 @@ module.exports = ({
 }) => {
   return {
     siteMetadata: {
-      description: "Personal page of John Doe",
+      description: "A personal website resume.",
       locale: "en",
       showThemeLogo,
-      title: "John Doe",
+      title: "Tomas Riabovas",
     },
     plugins: [
       {
@@ -22,6 +22,7 @@ module.exports = ({
           ],
         },
       },
+
       `gatsby-plugin-react-helmet`,
       `gatsby-transformer-yaml`,
       {

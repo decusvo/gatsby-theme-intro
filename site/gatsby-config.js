@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    description: "Personal page of John Doe",
+    description: "Personal résumé.",
     locale: "en",
-    title: "John Doe",
+    title: "Tomas Riabovas",
   },
   plugins: [
     {
@@ -10,8 +10,8 @@ module.exports = {
       options: {
         basePath: "/",
         contentPath: "content/",
-        showThemeLogo: true,
-        theme: "classic",
+        showThemeLogo: false,
+        theme: "blue",
       },
     },
   ],

@@ -6,6 +6,7 @@ import Skills from "../skills/skills"
 import Summary from "../summary/summary"
 import Tools from "../tools/tools"
 import WorkHistory from "../work-history/work-history"
+import Certifications from "../certifications/certifications"
 
 const MainContent = ({ history, projects, profile }) => {
   return (
@@ -22,9 +23,10 @@ const MainContent = ({ history, projects, profile }) => {
       </div>
 
       {profile.about && <About about={profile.about} />}
+      {profile.certifications && <Certifications certifications={profile.certifications} />}
       <Projects projects={projects} />
       <WorkHistory history={history} />
-      <ContactForm email={profile.email} budget={profile.budget} />
+      <ContactForm email={profile.email} />
     </main>
   )
 }
